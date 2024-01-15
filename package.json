@@ -9,11 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth/prisma-adapter": "^1.0.14",
+    "@prisma/client": "^5.8.1",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
+    "mongodb": "^6.3.0",
     "next": "13.4.19",
+    "next-auth": "^4.24.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-quill": "^2.0.0"
-  }
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.2",
+    "prisma": "^5.8.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "grzechuu",
+  "license": "ISC"
 }
